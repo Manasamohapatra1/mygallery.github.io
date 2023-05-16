@@ -51,9 +51,13 @@ h1{
   
   .image-description {
     margin-top: 1rem;
-    font-size: 2vw;
+    font-size: 1.2vw;
     color: #010506;
     font-weight: bold;
   }
   
-  
+  @media screen and (max-width: 1000px){
+    .image-description{
+      font-size:2vw ;
+    }
+  }
