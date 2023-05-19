@@ -128,10 +128,37 @@ body {
     font-size: 1.2vw;
     color: #010506;
     font-weight: bold;
-  }
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: move 5s ease infinite;
+    background-image: linear-gradient( 68.7deg,  rgb(1, 80, 114) 13.2%, rgb(2, 9, 74) 29.8%, rgb(121, 8, 106) 48.9%, rgb(117, 4, 40) 68.2%, rgb(93, 37, 5) 86.4% );
+}
+
+@keyframes move {
+    0%,100%{
+        background-position: 200% 0%;
+    }
+
+    50%{
+        background-position: 0% 200%;
+    }
+}
+  
   
   @media screen and (max-width: 1000px){
+    body{ animation: gradient 3s ease infinite;
+
+    } 
     .image-description{
-      font-size:1.5vw ;
+      font-size:1.58vw ;
     }
-  }
+      .gallery-item img {
+        width: 100%;
+        max-width:60%;
+        height: auto;
+        margin: 10px;
+      }
+    }
