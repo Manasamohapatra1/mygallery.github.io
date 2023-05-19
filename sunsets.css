@@ -114,7 +114,7 @@ a:hover {
 	}
 	100% {
 		width: 200%;
-		height: 200%;
+		height: 500%;
 		opacity: 0;
 	}
 }
@@ -183,6 +183,7 @@ a:hover {
     } 
     .image-description{
       font-size: 1.6vw;
+      font-weight:normal;
     }
     .gallery-item img {
       width: 100%;

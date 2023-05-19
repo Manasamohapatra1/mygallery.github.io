@@ -143,6 +143,7 @@ margin-right: 9%;
   } 
   .image-description{
     font-size:1.6vw ;
+    font-weight:normal;
   }
     .gallery-item img {
       width: 100%;
