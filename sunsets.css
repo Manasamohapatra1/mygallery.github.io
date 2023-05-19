@@ -178,7 +178,7 @@ a:hover {
   
   @media screen and (max-width: 1000px){
     
-    body{ animation: gradient 1s ease infinite;
+    body{ animation: gradient 2s ease infinite;
 
     } 
     .image-description{

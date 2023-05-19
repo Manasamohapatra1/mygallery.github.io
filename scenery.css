@@ -138,7 +138,7 @@ margin-right: 9%;
 
 
 @media screen and (max-width: 1000px){
-  body{ animation: gradient 3s ease infinite;
+  body{ animation: gradient 2s ease infinite;
 
   } 
   .image-description{
