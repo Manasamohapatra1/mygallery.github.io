@@ -140,11 +140,11 @@ a:hover {
 
 @keyframes move {
     0%,100%{
-        background-position: 200% 0%;
+        background-position: 100% 0%;
     }
 
     50%{
-        background-position: 0% 200%;
+        background-position: 0% 100%;
     }
 }
 
@@ -155,11 +155,11 @@ a:hover {
 
     } 
     .image-description{
-      font-size:1.56vw ;
+      font-size: 1.53vw;
     }
     .gallery-item img {
       width: 100%;
-      max-width:60%;
+      max-width:80%;
       height: auto;
       margin: 10px;
     }

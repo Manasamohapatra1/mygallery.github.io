@@ -125,7 +125,7 @@ body {
   
   .image-description {
     margin-top: 1rem;
-    font-size: 1.2vw;
+    font-size: 1vw;
     color: #010506;
     font-weight: bold;
     text-align: center;
@@ -139,11 +139,11 @@ body {
 
 @keyframes move {
     0%,100%{
-        background-position: 200% 0%;
+        background-position: 100% 0%;
     }
 
     50%{
-        background-position: 0% 200%;
+        background-position: 0% 100%;
     }
 }
   
@@ -157,7 +157,7 @@ body {
     }
       .gallery-item img {
         width: 100%;
-        max-width:60%;
+        max-width:80%;
         height: auto;
         margin: 10px;
       }
