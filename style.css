@@ -18,7 +18,7 @@ body {
   background-color: #000000;
 }
 .container {
-  /* max-width: 1200px; */
+  max-width: 1200px;
   width: 90%;
   margin: auto;
 }
@@ -250,7 +250,35 @@ h2 {
   .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-35deg);
   }
+  .animate{
+    font-size: 2rem;
+    padding-top: 6%;
+    margin-bottom: 8%;
+
+  }
+  p1{
+    font-size: 1rem;
+  }
+  .box{
+    flex-direction: column;
+  }
+  image{
+    width: 100%;
+  }
+.content{
+  width: 100%;
 }
+  .image{
+    width: 100%;
+  }
+  h2{
+    font-size: 2rem;
+  }
+}
+
+
+
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
 * {
