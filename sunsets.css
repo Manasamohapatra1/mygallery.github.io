@@ -4,9 +4,9 @@
     /* font-family: Arial, Helvetica, sans-serif; */
   /* } */
   body {
-    background: linear-gradient(-45deg, #083b4d, #efbbe9,rgb(207, 143, 242),rgb(140, 189, 242),rgb(77, 77, 253), #f95d2d);
+    background: linear-gradient(-45deg, #a3d9ec, #161aec, #1dbbf5 ,#0cb8f7 );
     background-size: 400% 400%;
-    animation: gradient 8s ease infinite;
+    animation: gradient 10s ease infinite;
     /* height: 100vh; */
     }
     
@@ -34,7 +34,7 @@ h1{
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #231557 0%,
+    #160459 0%,
     #44107a 29%,
     #ff1361 67%,
     #fff800 100%
@@ -158,11 +158,11 @@ a:hover {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    color: transparent;
+    color: black;
     -webkit-background-clip: text;
     background-clip: text;
-    animation: move 5s ease infinite;
-    background-image: linear-gradient( 68.7deg,  rgb(10, 96, 131) 13.2%, rgb(2, 9, 74) 29.8%, rgb(121, 8, 106) 48.9%, rgb(117, 4, 40) 68.2%, rgb(93, 37, 5) 86.4% );
+    animation: move 2s ease infinite;
+    background-image: black;
 }
 
 @keyframes move {
