@@ -251,13 +251,13 @@ h2 {
     transform: rotate(-35deg);
   }
   .animate{
-    font-size: 2rem;
-    padding-top: 6%;
-    margin-bottom: 8%;
+    font-size: 1.6rem;
+    padding-top: 12%;
+    margin-bottom: 10%;
 
   }
   p1{
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .box{
     flex-direction: column;
