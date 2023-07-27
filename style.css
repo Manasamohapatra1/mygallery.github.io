@@ -252,12 +252,13 @@ h2 {
   }
   .animate{
     font-size: 1.6rem;
-    padding-top: 12%;
-    margin-bottom: 10%;
+    padding-top: 16%;
+    margin-bottom: 12%;
 
   }
   p1{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
+    padding: 10px;
   }
   .box{
     flex-direction: column;
