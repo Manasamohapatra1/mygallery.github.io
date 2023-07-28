@@ -143,6 +143,9 @@ a:hover {
     body{ animation: gradient 2s ease infinite;
 
     } 
+    a{
+      font-size: 0.8rem;
+    }
     .image-description{
       font-size: 1rem;
     }
