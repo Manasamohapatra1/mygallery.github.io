@@ -1,27 +1,8 @@
 
 body {
-  background: linear-gradient(-45deg, #10043b 0%,
-  #a347ff 29%,
-  #e7abbf 67%,
-  #98977f 100%);
-  background-size: 400% 400%;
-  animation: gradient 8s ease infinite;
-  /* height: 100vh; */
+  background-color: #2a2a2b;
   }
   
-  @keyframes gradient {
-  0% {
-  background-position: 0% 50%;
-  }
-
-  50% {
-  background-position: 100% 50%;
-  }
-  
-  100% {
-  background-position: 0% 50%;
-  }
-  }
 h1{
   text-align: center;
   font-size: 3vw;
@@ -68,6 +49,7 @@ a:hover {
 background-color: #243057;
 color: rgb(1, 8, 9);
 }
+figure{background-color: #010506;}
 
 .previous {
 background-color: #b2b0eb;
@@ -115,15 +97,11 @@ margin-right: 9%;
 .image-description {
   margin-top: 1rem;
   font-size: 1vw;
-  color: #010506;
+  color: #8e9294;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  animation: move 5s ease infinite;
-  background-image: linear-gradient( 68.7deg,  rgb(1, 80, 114) 13.2%, rgb(2, 9, 74) 29.8%, rgb(121, 8, 106) 48.9%, rgb(117, 4, 40) 68.2%, rgb(93, 37, 5) 86.4% );
+ 
 }
 
 @keyframes move {
